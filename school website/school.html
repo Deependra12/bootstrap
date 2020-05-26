@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>A Simple Website</title>
+
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap and css -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/e327786071.js" crossorigin="anonymous"></script>
+  
+   <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <section>
+        <nav class="navbar navbar-expand-sm bg-dark  navbar-dark">
+            <!-- Brand/logo -->
+            <a class="navbar-brand" href="#">
+              <img src="image/logo.png" alt="logo" style="width:100px;">
+            </a>
+            <p style="color:coral;font-weight: bold;">Shree Mid Regional Police Boarding High School,Babittii,Jingadiya</p>
+            
+            <!-- Links -->
+            <ul class="navbar-nav one" >
+              <li class="nav-item">
+                <a class="nav-link active text-primary" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutus">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">EVENTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">TEAM</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ADMISSION FORM</a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+    
+         <!--Quotation-->
+      
+      <blockquote class="blockquote">
+        <p class="text-danger" id="home">“Education is the passport to the future, for tomorrow </br>
+            belongs to those who prepare for it today.”</p>
+            <footer class="blockquote-footer">Malcolm X
+            </footer>
+      </blockquote>
+      <!--slide-->
+      <section class="slide">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="image/building.jpg" alt="Los Angeles" width="1800" height="400">
+                <div class="carousel-caption">
+                  <h3 class="text-danger">Shree Mid Regional Police Boarding High School</h3>
+                  <p>“A Temple Where Leaders Are Born”</p>
+                </div>   
+              </div>
+              <div class="carousel-item">
+                <img src="image/excerise.jpg" alt="Chicago" width="1800" height="400">
+                <div class="carousel-caption">
+                  <h3 class="text-danger">Sports Time</h3>
+                  <p>Different sports activites are conducting time to time!</p>
+                </div>   
+              </div>
+              <div class="carousel-item">
+                <img src="image/moment.jpg" alt="New York" width="1800" height="400">
+                <div class="carousel-caption">
+                  <h3 class="text-danger">Audotorium Room</h3>
+                  <p>-palce where meeting is done!</p>
+                </div>   
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+          
+      </section>
+    <hr >
+<!--About us-->
+<secion class="about" id="aboutus">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 style="text-align: center;"><strong >ABOUT US</strong></h1>
+                <p class="text-muted two">The Nepal Police School usually shortened as “NPS”, previously known </br>
+                    as Dipendra Police School (DPS) named after the late Prince Dipendra</br>
+                     Bir Bikram Shah of the kingdom of Nepal is
+                     a regional system </br>of police boarding schools in Nepal. 
+                     The school motto is “Better Schooling </br>for ideal Citizens”. </p>
+                     <!--collapsible-->
+                     <button type="button" class="btn btn-primary three" data-toggle="collapse" data-target="#coll">Learn more</button>
+                     <div id="coll" class="collapse two">
+                        The schools predominantly accept applications from children of Nepal</br>
+                         police personnel but in some cases accept the application from non-police</br>
+                          personnel children (up to 40% of the school population). These schools</br>
+                           are funded by the welfare program of the Nepal Police Organisation. </br>
+                           The school’s history and links have made Nepal Police School one of </br>
+                           the prestigious schools in Nepal.
+                     </div>
+                   
+            </div>
+            <div class="col-md-4">
+                <img src="image/meerting.jpg" alt="New York"  height="400">
+                
+            </div>
+        </div>
+    </div>
+</secion>
+<!-- team member-->
+<section class="teammember" id="team">
+    <h1 style="text-align: center;">OUR ADMINISTRATIVE MEMBERS</h1>
+    <div class="row">
+        <div class="col-md-4">
+            <img src="image/Ashok1.jpg" class="rounded-circle title"  alt="New York"  >
+            <div class="seven">
+                <h3>ASHOK YADAV</h3>
+            <P class="text-danger">VICE PRINCIPAL</P>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <img src="image/jamun.jpg" class="rounded-circle title"  alt="New York"  >
+          <div class="seven">
+            <h3>JAMUN  YADAV</h3>
+            <P class="text-danger">VICE PRINCIPAL</P>
+          </div>
+        </div>
+        <div class="col-md-4">
+            <img src="image/hari.jpg" class="rounded-circle title"  alt="New York"  >
+          <div class='seven'>
+            <h3>HARI GC</h3>
+            <P class="text-danger">ECA CORDINATOR</P>
+          </div>
+    </div>
+    <div class="row"> 
+        <div class="col-md-12 eight">
+            <img src="image/principal.jpg" class="rounded-circle title six"  alt="New York"  >
+            <h3>TEKENDRA MAHAT</h3>
+            <p class="text-danger">PRINCIPAL</p>
+        </div>
+    </div>
+</section>
+<!--footer-->
+<section class="footer" id="contact">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2">
+                <h4>Contact info:</h4>
+                <p>Adress:</p>
+                <P>
+                    Basbitti,jingadiya
+                </P>
+                <p>Email:policeschool76@gmail.com</p>
+            </div>
+            <div class="col-md-2">
+                <h3><i class="fas fa-phone"></i>Mobile No</h3>
+                <p>055-565167</p>
+                <p>9845678231</p>
+            </div>
+            <div class="col-md-4">
+                <div class="scroll-top">
+                    <h5>Scroll Up</h5>
+                    <a href="#home"><i class="fa fa-angle-up "style="color:red"></i></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+              <i class="fa fa-facebook-square	 ten  "></i>
+              <i class="fa fa-twitter ten"></i>
+              <i class="fa fa-youtube ten"></i>
+              <i class="fa fa-instagram ten" ></i>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+  
+
+</body>
+</html>
